@@ -66,6 +66,7 @@ Haskell mode.
 
 Then the following keystrokes are active when the cursor is
 on a heading comment:
+
 | Keystroke  | Action |
 |------------|--------|
 |`<TAB>`     | folds/unfolds a section
