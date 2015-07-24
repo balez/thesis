@@ -66,23 +66,14 @@ Haskell mode.
 
 Then the following keystrokes are active when the cursor is
 on a heading comment:
-
-\<TAB\>
-  :  folds/unfolds a section
-\<M-TAB\>
-  :  cycle through the following states:
-   - SHOW ALL where the file is displayed as normal
-   - OVERVIEW where only the main headings are shown
-   - CONTENTS where all the headings are shown
-
-\<M-right\>
-  :  unfolds a section
-\<M-left\>
-  :  folds a section
-\<M-up\>
-  :  previous heading
-\<M-down\>
-  :  next heading
+| Keystroke  | Action |
+|------------|--------|
+|`<TAB>`     | folds/unfolds a section
+|`<M-TAB>`   | cycle through the following states: <p><ul><li>SHOW ALL where the file is displayed as normal</li><li>OVERVIEW where only the main headings are shown</li><li>CONTENTS where all the headings are shown</li></ul></p>
+|`<M-right>` | unfolds a section
+|`<M-left>`  | folds a section
+|`<M-up>`    | previous heading
+|`<M-down>`  | next heading
 
 Additionally, you may want to rebind `outline` minor mode
 commands to navigate more easily. Those commands are valid
